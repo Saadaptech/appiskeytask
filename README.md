@@ -1,6 +1,6 @@
 php artisan db:seed --class=UserSeeder
 
-php artisan make:seeder NotificationSeeder
+php artisan db:seed --class=NotificationSeeder
 
 php artisan schedule:run
 
